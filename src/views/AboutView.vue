@@ -46,7 +46,7 @@ border-radius: 15px;
 width: 437px;
 height: 434px;
 margin-top: 5%;
-
+border-radius: 15px;
   }
   .icon{
     position: relative;
