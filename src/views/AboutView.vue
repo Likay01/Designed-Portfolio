@@ -39,13 +39,14 @@ border-radius: 15px;
   h5{
     text-align: start;
     margin-top: 110px;
-    margin-left: 20px;
+    margin-left: 40px;
+    font-size: 25px;
     color: #552005;
   }
   img{
-width: 437px;
-height: 434px;
-margin-top: 5%;
+width: 477px;
+height: 464px;
+margin-top: 12%;
 border-radius: 15px;
   }
   .icon{

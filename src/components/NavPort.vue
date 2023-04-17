@@ -9,10 +9,13 @@
     <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-        <router-link to="/about" class="nav-link m-0">About</router-link>
+        <router-link to="/" class="nav-link m-0 home">Home</router-link>
+       </li>
+        <li class="nav-item">
+        <router-link to="/about" class="nav-link m-0 one">About</router-link>
        </li>
        <li class="nav-item">
-        <router-link to="/contact" class="nav-link m-0">Contact</router-link>
+        <router-link to="/contact" class="nav-link m-0 one">Contact</router-link>
        </li>
       </ul>
     </div>
@@ -29,8 +32,18 @@ export default {
 nav{
   background-color:#100f0f;
 }
+nav li.router-link-exact-active {
+  color: #f1f1f1;
+}
 .nav-link{
   color: #f1f1f1;
+  text-align: end;
+}
+.home{
+  color: #EF5B0E;
+}
+.one{
+  padding-left: 9rem;
 }
 .logo{
   margin-left: 20px;
@@ -42,6 +55,6 @@ nav{
   padding: 0;
 }
 .collapse{
-  margin-left: 58rem;
+  margin-left: 74rem;
 }
 </style>

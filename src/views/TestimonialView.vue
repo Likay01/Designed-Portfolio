@@ -3,7 +3,7 @@
         <div class="band">
           <div class="banding">
          <div class="container " id="cards">
-    <div class="card sorted " style="width: 18rem;" >
+    <div class="card sorted " style="width: 27rem;" >
         <img src="https://i.postimg.cc/W39QpKyp/Joel-Profile.jpg" class="images card-img-top" alt="...">
   <div class="card-bodyspace">
     <h5 class="card-title">Joel Mukanya </h5>
@@ -13,7 +13,7 @@
             </div>
 
             <div class="container " id="cards">
-    <div class="card sorted " style="width: 18rem;" >
+    <div class="card sorted " style="width: 27rem;" >
         <img src="https://i.postimg.cc/BZk3FGs8/Screenshot-20221103-143935-1-1.jpg" class="images card-img-top" alt="...">
   <div class="card-bodyspace">
     <h5 class="card-title">Sive Shabane </h5>
@@ -24,7 +24,7 @@
 
 
             <div class="container " id="cards">
-    <div class="card sorted " style="width: 18rem;" >
+    <div class="card sorted " style="width: 27rem;" >
         <img src="https://i.postimg.cc/Kz8bHftL/Sakhe.jpg" class="images card-img-top" alt="...">
   <div class="card-bodyspace">
     <h5 class="card-title">Sakhe Mzolisa</h5>
@@ -35,7 +35,7 @@
 
 
             <div class="container " id="cards">
-    <div class="card sorted " style="width: 18rem;" >
+    <div class="card sorted " style="width: 27rem;" >
         <img src="https://i.postimg.cc/9MxgMX7y/candice-2022.jpg" class="images card-img-top" alt="...">
   <div class="card-bodyspace">
     <h5 class="card-title">Candice Amon </h5>
@@ -46,7 +46,7 @@
 
 
             <div class="container " id="cards">
-    <div class="card sorted " style="width: 18rem;" >
+    <div class="card sorted " style="width: 27rem;" >
         <img src="https://i.postimg.cc/mkdHQ5mM/1679909303854.jpg" class="images card-img-top" alt="...">
   <div class="card-bodyspace">
     <h5 class="card-title">Timothy Jennike </h5>
@@ -57,7 +57,7 @@
 
 
             <div class="container " id="cards">
-    <div class="card sorted " style="width: 18rem;" >
+    <div class="card sorted " style="width: 27rem;" >
         <img src="https://i.postimg.cc/T1nwCH2h/C11-Brandon-Swinton-1.jpg" class="images card-img-top" alt="...">
   <div class="card-bodyspace">
     <h5 class="card-title">Brandon Swinton</h5>
@@ -90,7 +90,7 @@ overflow: hidden;
   }
   .card{
     width: 0;
-    height: 25rem;
+    height: 30rem;
     background-color: #25742e94;
     transition: transform 2s;
     object-fit: contain;
@@ -109,7 +109,7 @@ padding: 10px;
 perspective: 700px;
     }
     img{
-height: 200px;
+height: 20rem;
 width: 100%;
 }
 .card:hover{
@@ -119,6 +119,7 @@ width: 100%;
   display: flex;
   width: calc(250px * 18);
   animation: scroll 40s linear infinite;
+  margin-top: 4rem;
 }
 .band{
     background-color:#3CCF4E; 

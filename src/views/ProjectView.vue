@@ -1,93 +1,73 @@
 <template>
   <div class="heart">
         <div class="band">
-          <div class="banding">
-         <div class="container " id="cards">
-    <div class="card sorted " style="width: 18rem;" >
-        <img src="https://i.postimg.cc/mDXTRHDT/Screenshot-20230202-032508.png" class="images card-img-top" alt="...">
-  <div class="card-bodyspace">
-    <h5 class="card-title">Capital Control</h5>
-    <div class="card-body">
-                <button type="button" class="tie btn btn"><a :href="pro.Git" target="_blank" class="card-link">Github</a></button>
-                <button type="button" class="tie btn btn"><a :href="pro.Net" target="_blank" class="card-link">Netify(Live)</a></button>
-            </div>
-          </div>
-          </div>
-            </div>
+         <h1>Projects</h1> 
+          <div class="banding row">
 
-            <div class="container " id="cards">
-    <div class="card sorted " style="width: 18rem;" >
-        <img src="https://i.postimg.cc/ZqLcw8c8/Screenshot-20230119-022653.png" class="images card-img-top" alt="...">
-  <div class="card-bodyspace">
+<div class="card vinyl col-12" style="width: 30rem;">
+  <div class="card-body">
     <h5 class="card-title">Vinylique</h5>
-        <div class="card-body">
-                <button type="button" class="tie btn btn"><a :href="pro.Git" target="_blank" class="card-link">Github</a></button>
-                <button type="button" class="tie btn btn"><a :href="pro.Net" target="_blank" class="card-link">Netify(Live)</a></button>
-            </div>
-        </div>
-          </div>
-            </div>
+    <h6 class="card-subtitle mb-2">E-commerce </h6>
+    <p class="card-text">This is a vinyl-selling store I made, called Vinylique.</p>
+    <a href="https://github.com/Likay01/E-com-EOM-project.git" class="card-link text-black">Git</a>
+    <a href="https://leafy-froyo-7e1c3b.netlify.app/" class="card-link live">Live</a>
+  </div>
+</div>
 
+<div class="card crtv col-12" style="width: 30rem;">
+  <div class="card-body">
+    <h5 class="card-title">Crtv Studios.</h5>
+    <h6 class="card-subtitle mb-2">E-commerce</h6>
+    <p class="card-text">This is a art-selling store, which has painting and photographs.</p>
+    <a href="https://github.com/Likay01/CRTVstudios.git" class="card-link text-black">Git</a>
+    <a href="https://jolly-begonia-c084b5.netlify.app" class="card-link live">Live</a>
+  </div>
+</div>
 
-            <div class="container " id="cards">
-    <div class="card sorted " style="width: 18rem;" >
-        <img src="https://i.postimg.cc/259pSc96/Screenshot-20230119-033824.png" class="images card-img-top" alt="...">
-  <div class="card-bodyspace">
+<div class="card proud col-12" style="width: 30rem;">
+  <div class="card-body">
+    <h5 class="card-title">Proud Black</h5>
+    <h6 class="card-subtitle mb-2">Grid practise</h6>
+    <p class="card-text">This is what I accomplish using grid.</p>
+    <a href="https://github.com/Likay01/homework-tryout.git" class="card-link text-black">Git</a>
+    <a href="https://blackpower.netlify.app/" class="card-link live">Live</a>
+  </div>
+</div>
+
+<div class="card big col-12" style="width: 30rem;">
+  <div class="card-body">
+    <h5 class="card-title">Big Stepper</h5>
+    <h6 class="card-subtitle mb-2">E-commerce (collaboration with Siphamandla)</h6>
+    <p class="card-text">A sneaker-selling store that my colleague and I built, I was on the front-end.</p>
+    <a href="https://github.com/Likay01/BigStepper-Fullstack-EOMP.git" class="card-link text-black">Git</a>
+    <a href="https://big-stepper.web.app/" class="card-link live">Live</a>
+  </div>
+</div>
+
+<div class="card cap col-12" style="width: 30rem;">
+  <div class="card-body">
+    <h5 class="card-title">Capital Control</h5>
+    <h6 class="card-subtitle mb-2">E-commerce (collaboration with a group)</h6>
+    <p class="card-text">this was a group activity, where we had to build an app to prevent and help people from falling into debt. </p>
+    <a href="https://github.com/Likay01/Cap-ctrl.git" class="card-link text-black">Git</a>
+    <a href="https://capitalcontrol.netlify.app/" class="card-link live">Live</a>
+  </div>
+</div>
+
+<div class="card cal col-12" style="width: 30rem;">
+  <div class="card-body">
     <h5 class="card-title">Calculator</h5>
-        <div class="card-body">
-                <button type="button" class="tie btn btn"><a :href="pro.Git" target="_blank" class="card-link">Github</a></button>
-                <button type="button" class="tie btn btn"><a :href="pro.Net" target="_blank" class="card-link">Netify(Live)</a></button>
-            </div>
-        </div>
-          </div>
-            </div>
-
-
-            <div class="container " id="cards">
-    <div class="card sorted " style="width: 18rem;" >
-        <img src="https://i.postimg.cc/hGQtzb08/screen.png" class="images card-img-top" alt="...">
-  <div class="card-bodyspace">
-    <h5 class="card-title">Grid </h5>
-        <div class="card-body">
-                <button type="button" class="tie btn btn"><a :href="pro.Git" target="_blank" class="card-link">Github</a></button>
-                <button type="button" class="tie btn btn"><a :href="pro.Net" target="_blank" class="card-link">Netify(Live)</a></button>
-            </div>
-        </div>
-          </div>
-            </div>
-
-
-            <div class="container " id="cards">
-    <div class="card sorted " style="width: 18rem;" >
-        <img src="https://i.postimg.cc/mkdHQ5mM/1679909303854.jpg" class="images card-img-top" alt="...">
-  <div class="card-bodyspace">
-    <h5 class="card-title">Timothy Jennike </h5>
-        <div class="card-body">
-                <button type="button" class="tie btn btn"><a :href="pro.Git" target="_blank" class="card-link">Github</a></button>
-                <button type="button" class="tie btn btn"><a :href="pro.Net" target="_blank" class="card-link">Netify(Live)</a></button>
-            </div>
-        </div>
-          </div>
-            </div>
-
-
-            <div class="container " id="cards">
-    <div class="card sorted " style="width: 18rem;" >
-        <img src="https://i.postimg.cc/T1nwCH2h/C11-Brandon-Swinton-1.jpg" class="images card-img-top" alt="...">
-  <div class="card-bodyspace">
-    <h5 class="card-title">Brandon Swinton</h5>
-        <div class="card-body">
-                <button type="button" class="tie btn btn"><a :href="pro.Git" target="_blank" class="card-link">Github</a></button>
-                <button type="button" class="tie btn btn"><a :href="pro.Net" target="_blank" class="card-link">Netify(Live)</a></button>
-            </div>
-        </div>
-          </div>
-            </div>
-
-        </div>
+    <h6 class="card-subtitle mb-2">Calculator</h6>
+    <p class="card-text">This is a Calculator I accomplished with JS.</p>
+    <a href="https://github.com/Likay01/Calculator.git" class="card-link text-black">Git</a>
+    <a href="https://lkcalculator.netlify.app" class="card-link live">Live</a>
+  </div>
+</div>
+</div>
     </div>
     </div>
 </template>
+
 <script>
 export default {
 
@@ -96,7 +76,7 @@ export default {
 </script>
 <style scoped>
       .heart{
-    height:100vh;
+    height:200vh;
     background-color: #100f0f;
     font-family: 'Montserrat';
     font-style: normal;
@@ -106,15 +86,34 @@ position: relative;
 place-items: center;
 overflow: hidden;
   }
+  .card-body{
+    margin-top: 14rem;
+    text-align: start;
+    font-weight: 700;
+    color: white;
+    background-color: #100f0f82;
+  }
   .card{
-    width: 0;
+    width: 30rem;
     height: 25rem;
     background-color: #C0BB05;
     transition: transform 2s;
     object-fit: contain;
+margin: auto;
+padding: 0;
+  }
+  h1{
+  color: #C0BB05;
+  }
+  .live{
+    color: rgb(113, 0, 0);
+  }
+  .card-link{
+    text-decoration: none;
   }
   #cards{
-     display: inline-flex; 
+     display: flex;
+     flex-direction: column; 
      flex-wrap: wrap;
      gap: 3rem;
      position: relative;
@@ -126,31 +125,56 @@ overflow: hidden;
 padding: 10px;
 perspective: 700px;
     }
-    img{
+
+img{
 height: 200px;
 width: 100%;
 }
-.card:hover{
-  transform: translateZ(3rem);
-}
-.banding{
-  display: flex;
-  width: calc(250px * 18);
-  animation: scroll 40s linear infinite;
-}
 .band{
     background-color:#FFF804; 
-    height: 90vh;
+    height: 200vh;
+    width: 100vw;
 }
-.banding:hover{
-  animation-play-state: paused;
+.banding{
+  height: 200vh;
 }
-@keyframes scroll {
-  0%{
-    transform: translateX(0);
-  }
-  100%{
-    transform: translateX(calc(-250px * 9));
-  }
+.vinyl{
+  background-image: url(https://i.postimg.cc/CxpRLM7q/Vinylique-1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.crtv{
+  background-image: url(https://i.postimg.cc/YqhPqM0M/My-project-1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.proud{
+  background-image: url(https://i.postimg.cc/nc43LrZ8/proudblack-1.png);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.big{
+  background-image: url(https://i.postimg.cc/RFpjXFhp/My-project-1-1.png);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.cap{
+  background-image: url(https://i.postimg.cc/WzpjW3MQ/My-project-1-3.png);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.cal{
+  background-image: url(https://i.postimg.cc/Bv5dr3Qs/My-project-1-2.png);
+  background-position: center;
+  background-size: cover;
+
 }
 </style>
