@@ -48,7 +48,7 @@
     <img src="https://i.postimg.cc/HsWCL5M5/CSS-1.png" alt="JAVASCRIPT" class="col-6">
     <img src="https://i.postimg.cc/1Rrg8LWd/vue.png" alt="VUE.JS" class="col-6">
     <img src="https://i.postimg.cc/1RfTXQ5m/MySQL.png" alt="MYSQL" class="col-6">
-    <img src="https://i.postimg.cc/J0rz3zT2/node.png" alt="NODE.JS" class="col-6">
+    <img src="https://i.postimg.cc/nz4gTfL9/CSS-2.png" alt="NODE.JS" class="col-6">
     <img src="https://i.postimg.cc/QMwVcD5Q/Screenshot-2023-04-17-143315.png" alt="figma" class="col-6">
 
   </div>
@@ -98,7 +98,7 @@ border-radius: 15px;
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: #943707;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -120,8 +120,8 @@ border-radius: 15px;
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: white;
-  border: 4px solid #FF9F55;
+  background-color: #EF5B0E;
+  border: 4px solid #943707;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -146,9 +146,9 @@ border-radius: 15px;
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid #943707;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent #943707;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -162,7 +162,7 @@ border-radius: 15px;
   left: 30px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent #943707 transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -180,12 +180,15 @@ border-radius: 15px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   /* Place the timelime to the left */
   .timeline::after {
-  left: 31px;
+  left: 14px;
   }
-  
+  .content{
+    margin-left:250px;
+    width:300px;
+  }
   /* Full-width containers */
   .container {
   width: 100%;
@@ -195,7 +198,7 @@ border-radius: 15px;
   
   /* Make sure that all arrows are pointing leftwards */
   .container::before {
-  left: 60px;
+  left: 290px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;
@@ -203,7 +206,7 @@ border-radius: 15px;
 
   /* Make sure all circles are at the same spot */
   .left::after, .right::after {
-  left: 15px;
+  left: 90.5%;
   }
   
   /* Make all right containers behave like the left ones */

@@ -18,6 +18,7 @@
   </div>
   <button type="submit" class="btn">Send</button>
 </form>
+
 <div class="addy">
     <div class="cell col">
         <p>(061)337-9806</p>
@@ -56,6 +57,11 @@ overflow: hidden;
     color: white;
     text-align: start;
   }
+  h1{
+       margin-left: 25px;
+    color: white;
+    text-align: start; 
+  }
   input{
     width: 600px;    
   }
@@ -80,5 +86,24 @@ overflow: hidden;
 }
 .home{
     color: white;
+}
+@media screen and (max-width: 1000px){
+  .heart{
+    flex: none;
+    background-image:none ;
+    background-color: #100f0f;
+  }
+  .mb-3{
+    height: 200px;
+  }
+form{
+  height: 50rem;
+}
+.addy{
+  width: 100rem;
+}
+.btn{
+  margin-top: 50px;
+}
 }
 </style>

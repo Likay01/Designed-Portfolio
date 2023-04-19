@@ -32,6 +32,7 @@ body{
   min-height: 100vh; 
   overflow-x: hidden;
   background-color:#100f0f ;
+  width: 100%;
 }
 nav {
   padding: 0;
@@ -49,5 +50,10 @@ footer{
   background-color: #f1f1f1;
   text-align: center;
   color: #100f0f;
+}
+@media screen and (max-width: 600px) {
+  body{
+    overflow-x: hidden;
+  }
 }
 </style>

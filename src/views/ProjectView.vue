@@ -177,4 +177,9 @@ width: 100%;
   background-size: cover;
 
 }
+@media screen and (max-width: 1000px) {
+  .card{
+    margin-bottom: 5px;
+  }
+}
 </style>

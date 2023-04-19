@@ -6,7 +6,7 @@
       <div class="col">
   <h5>I was born and raised in Cape Town, South Africa, on December 25th, 2002. I am a certified full-stack web developer and graduated from Maitland High School in 2021. Despite being raised by a single mother and living with my uncle and aunt, I have remained a humble young man with a passion for creativity. In my leisure time, I enjoy drawing and music production. As a dedicated individual, I am always looking for new and innovative ideas to enhance my skills. In this rapidly evolving technological age, I am committed to finding better ways to succeed and stay ahead of the curve.</h5>
 </div>
-<div class="col">
+<div class="col pic">
   <img src="https://i.postimg.cc/wMk1R9Q2/DSC-3517.jpg" alt="">
 </div>
     </div>
@@ -72,5 +72,24 @@ line-height: 122px;
 
 
 color: rgba(148, 54, 7, 0.479);
+  }
+  @media screen and (max-width: 1000px){
+img{
+  display: none;
+} 
+.pic{
+  display: none;
+}
+p{
+  margin-top: 15px;
+  margin-left: -60px;
+}
+h5{
+    text-align: start;
+    margin-top: 190px;
+    margin-left: -40px;
+    font-size: 38px;
+    color: #552005;
+  }
   }
 </style>

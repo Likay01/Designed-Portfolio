@@ -189,4 +189,135 @@ height: 260px;
 left: 220px;
 top: -15px;
 }
+
+@media screen and (max-width: 1000px){
+.heart{
+  height: 100vh;
+  width:100vw;
+}
+  .imgs{
+display: none;
+}
+  .reg-1{
+width: 98%;
+height: 400px;
+left: 10px;
+margin: 0px;
+  }
+
+  .intro{
+font-size: 25px;
+margin-left: 39%;
+text-align: center;
+color: #F1F1F1;
+  } 
+.name{
+  text-align: center;
+}
+.board{
+  margin-left: 26%;
+}
+  .name {
+    margin-left: 4px;
+    margin-top: 18%;
+    font-size: 60px;
+  }
+
+  .board{
+position: absolute;
+width: 362px;
+height: 35px;
+left: 5px;
+top: 60%;
+border: 1px solid #0C2B2C;
+border-radius: 10px;
+  }
+
+  .head{
+    width: 100%;
+  }
+
+  .resume{
+width: 380px;
+height: 370px;
+margin-left: 10px; 
+top:42%;
+left: 10px;
+  }
+
+  .stat{
+    width: 380px;
+height: 380px;     
+position: absolute;
+left: 25px;
+top: -40px;
+}   
+    
+    .res{
+    position: absolute;
+width: 190px;
+height: 60px;
+top: 280px;
+font-size: 60px;
+  }
+
+  .projects{
+position: absolute;
+width: 380px;
+height: 370px;
+margin-left: 8%; 
+top:42%;
+left: 360px;
+  }
+
+  .web {
+   width: 380px;
+height: 380px;     
+position: absolute;
+left: 25px;
+top: -60px;
+  }
+
+  .pro {
+
+    position: absolute;
+width: 190px;
+height: 60px;
+top: 280px;
+font-size: 60px;
+  }
+
+  .testimonial{
+position: absolute;
+width: 795px;
+height: 290px;
+margin-left: 5px; 
+background: #3CCF4E;
+border: 5px solid #24722D;
+border-radius: 15px;
+top:75%;
+left: 10px;
+  }
+
+  .pg{
+position: absolute;
+width: 380px;
+height: 380px;    
+position: absolute;
+left: 60%;
+top: -30px;
+}
+
+   .test{
+
+position: absolute;
+width: 190px;
+height: 60px;
+font-size: 60px;
+}
+
+
+  
+}
+
 </style>
